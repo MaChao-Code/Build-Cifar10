@@ -164,11 +164,11 @@ if __name__ == '__main__':
     # 图像数据的目录
     image_data_folder = '../OriginalImageDataset/my_cifar10'
     # 保存临时文件及生成的数据集的目录
-    save_path = './1/'
+    save_path = './cifar/'
     # ratio为拆分阈值，0.2则是前20%为测试集，剩下的是训练集
     split_ratio = 0.2
     # 生成的train的batch数量
-    train_batch_num = 1
+    train_batch_num = 5
     # 图像色彩模式
     COLORMODE = 'GRAYSCALE'
     # COLORMODE = 'RGB'
